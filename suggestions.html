@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head lan="en">
+		<link rel="stylesheet" type="text/css" href="suggestions.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <title>Suggestion</title>
+		<script src="suggestions.js"></script>
+    </head>
+	<body onClick="minimize()">
+		<div name="div">
+			<span><input type="text" id="UserInput"  placeholder="Search..." name="input" onkeyUp="GetSuggestion(event)" /><a href="#" class="delete" onClick="remove()"><i class="material-icons left">delete</i></a></span>
+			<ul id="suggestions"></ul>
+		</div>
+	</body>
+</html>
